@@ -129,6 +129,15 @@ The vault is in-memory and scoped to a single request — no persistence, no sha
 
 Bug reports and pull requests are welcome on [GitHub](https://github.com/jibranusman95/promptscrub).
 
+## From the same author
+
+Small, sharp Ruby gems built to the same standard — 100% test coverage, zero dependencies beyond what's needed.
+
+| Gem | What it does |
+|-----|-------------|
+| [turbo_presence](https://github.com/jibranusman95/turbo_presence) | Figma-style live cursors, avatar stacks, and typing indicators for Rails/Hotwire |
+| [http_decoy](https://github.com/jibranusman95/http_decoy) | A real Rack server that runs inside your RSpec tests — test HTTP contracts, not stubs |
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
