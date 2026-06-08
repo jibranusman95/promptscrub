@@ -24,6 +24,21 @@ Your App                   PromptScrub                LLM API
 
 No infra to deploy. No gateway to operate. Just middleware.
 
+### What it looks like in practice
+
+```
+# What leaves your app (sent to the LLM):
+"Summarize the support ticket for SSN <SSN_001>, card <CARD_001>, email <EMAIL_001>"
+
+# What comes back from the LLM (raw):
+"The ticket for SSN <SSN_001> shows a duplicate charge on card <CARD_001>. Contact <EMAIL_001>."
+
+# What your application receives (after rehydration):
+"The ticket for SSN 234-56-7890 shows a duplicate charge on card 4532015112830366. Contact john.smith@hospital.com."
+```
+
+Your code never changes. Your LLM provider never sees real data.
+
 ## Installation
 
 ```ruby
