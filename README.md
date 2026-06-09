@@ -152,6 +152,7 @@ Small, sharp Ruby gems built to the same standard — 100% test coverage, zero d
 |-----|-------------|
 | [turbo_presence](https://github.com/jibranusman95/turbo_presence) | Figma-style live cursors, avatar stacks, and typing indicators for Rails/Hotwire |
 | [http_decoy](https://github.com/jibranusman95/http_decoy) | A real Rack server that runs inside your RSpec tests — test HTTP contracts, not stubs |
+| [webhook_inbox](https://github.com/jibranusman95/webhook_inbox) | Transactional inbox for Rails webhook receivers — deduplication, async processing, replay, dashboard |
 
 ## License
 
